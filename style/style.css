@@ -388,7 +388,9 @@ body {
         padding: 1rem 6rem;
     }
 
-    .section__image {
+    .section__images {
+        display: flex;
         flex-wrap: nowrap;
+        width: 100%;
     }
 }
