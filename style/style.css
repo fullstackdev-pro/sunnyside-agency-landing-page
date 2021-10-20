@@ -1,0 +1,394 @@
+body {
+    margin: 0 auto;
+    font-size: 1.125rem;
+}
+
+.header {
+    width: 100%;
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("/images/mobile/image-header.jpg");
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menus {
+    display: none;
+    background-color: hsl(0, 0%, 100%);
+    margin: 1.5rem;
+    position: absolute;
+    width: 87%;
+    z-index: 10;
+    text-align: center;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+.header__button {
+    padding: 1.6rem 0 2rem 0;
+}
+
+.header__button1 {
+    cursor: pointer;
+    padding: 1rem 3rem;
+    background-color: hsl(51, 100%, 49%);
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.header__logo {
+    padding: 1rem 1rem;
+}
+
+.header__menu-logo {
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.header__title {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+}
+
+.header__down-icon {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.blog1,
+.blog2 {
+    background-color: hsl(60, 53%, 97%);
+}
+
+.blog__image-mobile > img {
+    width: 100%;
+}
+
+.blog__image-desktop {
+    display: none;
+}
+
+.blog__title {
+    text-align: center;
+    padding: 0 5rem;
+    color: hsl(198, 62%, 26%);
+}
+
+.blog__subtitle {
+    text-align: center;
+    padding: 0 2rem;
+    color: hsl(210, 4%, 67%);
+}
+
+.blog__button {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.blog__button > a {
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+}
+
+/* Info section */
+
+.info__grapfic-design {
+    width: 100%;
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+}
+
+.info__photography {
+    width: 100%;
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../images/mobile/image-photography.jpg");
+}
+
+.info__title {
+    padding-top: 20rem;
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+}
+
+.info__subtitle {
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+}
+
+/* Client section */
+.client__section {
+    background-color: hsl(60, 53%, 97%);
+}
+
+.client__section > div {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.client__section-title {
+    width: 100%;
+    color: hsl(210, 4%, 67%);
+}
+
+.client__image > img {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.client__text {
+    padding: 1rem 2.5rem;
+    color: hsl(210, 4%, 67%);
+}
+
+.client__name {
+    padding-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: hsl(198, 62%, 26%);
+}
+
+.client__job {
+    color: hsl(210, 4%, 67%);
+    padding: 1rem 0 3rem 0;
+}
+
+.section__image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section__image > img {
+    width: 50%;
+}
+
+.footer {
+    background-color: hsl(168, 34%, 41%);
+}
+
+.footer > div {
+    text-align: center;
+}
+
+.footer__logo > img {
+    padding-top: 2rem;
+}
+
+.footer__elements {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__elements > div {
+    padding: 1.6rem;
+    color: hsl(167, 40%, 24%);
+}
+
+.footer__element {
+    cursor: pointer;
+}
+
+.footer__element:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.contact {
+    padding: 2rem 0 3rem 0;
+}
+
+.contact > img {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.contact > img:hover {
+    padding: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.attribution > div {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1440px) {
+    .header {
+        width: 100%;
+        height: 47rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url("/images/desktop/image-header.jpg");
+    }
+    
+    .header__section{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header__logo {
+        padding: 3rem 3rem;
+    }
+
+    .header__logo > img {
+        width: 10rem;
+        height: 2rem;
+    }
+    
+    .header__menus {
+        display: flex;
+        position: relative;
+        text-align: center;
+        margin: 0;
+        background-color: unset;
+    }
+
+    .menu {
+        padding: 1rem;
+    }
+
+    .header__menu {
+        padding: 2.6rem 1rem;
+        color: hsl(60, 53%, 97%);
+        font-weight: 700;
+    }
+
+    .header__menu-logo {
+        display: none;
+    }
+
+    .header__button {
+        padding: 1.6rem 1.5rem 0 1rem;
+    }
+
+    .header__button1 {
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .header__button1:hover {
+        background-color: hsl(198, 96%, 80%);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .header__title {
+        font-size: 5rem;
+    }
+
+    .blog__image-mobile {
+        display: none;
+    }
+
+    .blog__image-desktop {
+        display: flex;
+    }
+
+    .blog__image-desktop > img {
+        width: 100%;
+    }
+
+    .blog1 {    
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .blog1 > div {
+        width: 50%;
+    }
+
+    .blog2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blog2 > div {
+        width: 50%;
+    }
+
+    .blog__title {
+        padding: 6rem 5rem 0 10rem;
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .blog__subtitle {
+        text-align: left;
+        padding: 1rem 5rem 0 10rem;
+    }
+
+    .blog__button {
+        text-align: left;
+        padding: 3rem 5rem 0 10rem;
+    }
+
+    .info__section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info__grapfic-design {
+        height: 40rem;
+        background-image: url("../images/desktop/image-graphic-design.jpg");
+    }
+    
+    .info__photography {
+        height: 40rem;
+        background-image: url("../images/desktop/image-photography.jpg");
+    }
+
+    .info__title {
+        padding-top: 25rem;
+        text-align: center;
+        color: hsl(198, 62%, 26%);
+    }
+    
+    .info__subtitle {
+        text-align: center;
+        color: hsl(198, 62%, 26%);
+        padding: 0 13rem;
+    }
+
+    .client__section {
+        padding: 5rem 0 3rem 0;
+    }
+
+    .client__section-title {
+        font-size: 1.6rem;
+    }
+
+    .clients {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .client__text {
+        padding: 1rem 6rem;
+    }
+
+    .section__image {
+        flex-wrap: nowrap;
+    }
+}

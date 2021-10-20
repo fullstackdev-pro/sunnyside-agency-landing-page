@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style/style.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 1rem; text-align: center; color: rgb(0, 0, 0);}
+    .attribution a { color: hsl(0, 0%, 0%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__section">
+        <div class="nav">
+          <div class="header__logo">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+          <div class="header__menu-logo" onclick="change(1)">
+            <img src="./images/icon-hamburger.svg" alt="logo hamburger">
+          </div>
+        </div>
+        <div class="menu">
+          <div class="header__menus" id="header__menus">
+            <div class="header__menu">
+              About
+            </div>
+            <div class="header__menu">
+              Services
+            </div>
+            <div class="header__menu">
+              Projects
+            </div>
+            <div class="header__button">
+              <button class="header__button1">
+                Contact
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__title">
+        We are creatives
+      </div>
+      <div class="header__down-icon">
+        <img src="./images/icon-arrow-down.svg" alt="Arrow down">
+      </div>
+    </header>
+  
+    <section class="info">
+      <div class="blog1">
+        <div class="blog__images">
+          <div class="blog__image-mobile">
+            <img src="./images/mobile/image-transform.jpg" alt="Blog image 1">
+          </div>
+          <div class="blog__image-desktop">
+            <img src="./images/desktop/image-transform.jpg" alt="Blog image 1">
+          </div>
+        </div>
+
+        <div class="blog__body">
+          <div class="blog__title">
+            <h1>
+              Transform your brand
+            </h1>
+          </div>
+    
+          <div class="blog__subtitle">
+            We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </div>
+        
+          <div class="blog__button">
+            <a href="#">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="blog2">
+        <div class="blog__images">
+          <div class="blog__image-mobile">
+            <img src="./images/mobile/image-stand-out.jpg" alt="Blog image 1">
+          </div>
+          <div class="blog__image-desktop">
+            <img src="./images/desktop/image-stand-out.jpg" alt="Blog image 1">
+          </div>
+        </div>
+
+        <div class="blog__body">
+          <div class="blog__title">
+            <h1>
+              Stand out to the right audience
+            </h1>
+          </div>
+    
+          <div class="blog__subtitle">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+          </div>
+        
+          <div class="blog__button">
+            <a href="#">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="info__section">
+      <div class="info__grapfic-design">
+        <div class="info__title">
+          <h1>
+            Graphic design
+          </h1>
+        </div>
+        <div class="info__subtitle">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        </div>
+      </div>
+  
+      <div class="info__photography">
+        <div class="info__title">
+          <h1>  
+            Photography
+          </h1>
+        </div>
+        <div class="info__subtitle">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </div>
+      </div>
+    </section>
+  
+    <section class="client__section">
+      <div class="client__section-title">
+        <h3>
+          Client testimonials
+        </h3>
+      </div>
+  
+      <div class="clients">
+        <div class="client">
+          <div class="client__image">
+            <img src="./images/image-emily.jpg" alt="Emily image">
+          </div>
+            <div class="client__text">
+              We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+            </div>
+          <div class="client__name">
+            Emily R.
+          </div>
+          <div class="client__job">
+            Marketing Director
+          </div>
+        </div>
+      
+        <div class="client">
+          <div class="client__image">
+            <img src="./images/image-thomas.jpg" alt="Thomas image">
+          </div>
+          <div class="client__text">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </div>
+          <div class="client__name">
+            Thomas S.
+          </div>
+          <div class="client__job">
+            Chief Operating Officer
+          </div>
+        </div>
+      
+        <div class="client">
+          <div class="client__image">
+            <img src="./images/image-jennie.jpg" alt="Jennie image">
+          </div>
+          <div class="client__text">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </div>
+          <div class="client__name">
+            Jennie F.
+          </div>
+          <div class="client__job">
+            Business Owner
+          </div>
+      </div>
+      </div>
+    </section>
+    
+    <section class="section__image">
+      <div class="section__images">
+        <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="Milk-bottles">
+        <img src="./images/mobile/image-gallery-orange.jpg" alt="Orange">
+        <img src="./images/mobile/image-gallery-cone.jpg" alt="Cone">
+        <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="Sugar cube">
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="./images/logo.svg" alt="Footer logo">
+      </div>
+      <div class="footer__elements">
+        <div class="footer__element">
+          About
+        </div>
+        <div class="footer__element">
+          Services
+        </div> 
+        <div class="footer__element">
+          Projects
+        </div>
+      </div> 
+      <div class="contact">
+        <img src="./images/icon-facebook.svg" alt="faceebook icon">
+        <img src="./images/icon-instagram.svg" alt="instagram icon">
+        <img src="./images/icon-twitter.svg" alt="twitter icon">
+        <img src="./images/icon-pinterest.svg" alt="pinterest icon">
+      </div>
+    </footer>
+  </div>
+
+  <div class="attribution">
+    <div class="mentor">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+    </div>
+    <div class="developer">
+      Coded by <a href="https://github.com/fullstackdev-pro">Ismoil</a>
+    </div>
+  </div>
+
+  <script>
+    function change(input) {
+      if(input === 1) {
+        let elem = document.getElementById("header__menus");
+          if(elem.style.display !== "block") {
+            elem.style.display = "block";
+          }
+          else {
+            elem.style.display = "none";
+          }
+      }
+    }
+  </script>
+</body>
+</html>
