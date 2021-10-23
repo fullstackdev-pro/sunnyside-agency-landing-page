@@ -177,8 +177,8 @@ body {
     flex-wrap: wrap;
 }
 
-.section__image > img {
-    width: 50%;
+.section__images > img {
+    width: 100%;
 }
 
 .footer {
@@ -391,6 +391,10 @@ body {
     .section__images {
         display: flex;
         flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .section__images > img {
         width: 100%;
     }
 }
